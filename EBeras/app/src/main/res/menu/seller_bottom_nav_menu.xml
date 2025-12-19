@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/nav_my_products"
+        android:icon="@drawable/ic_product"
+        android:title="Produk Saya" />
+    <item
+        android:id="@+id/nav_profile_seller"
+        android:icon="@drawable/ic_person"
+        android:title="Profil" />
+</menu>

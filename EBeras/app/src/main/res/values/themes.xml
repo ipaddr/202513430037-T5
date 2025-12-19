@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Nama harus sesuai dengan yang dirujuk di AndroidManifest.xml -->
+    <style name="Theme.EBerasPadang" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color (Warna Hijau Utama E-Beras) -->
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green_accent</item>
+        <item name="colorSecondaryVariant">@color/green_accent_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Style untuk menghilangkan ActionBar di semua Activity secara default -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Theme khusus untuk Splash Screen, jika diperlukan -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Ganti dengan background splash screen Anda (misalnya warna hijau) -->
+        <item name="windowSplashScreenBackground">@color/green_primary</item>
+        <!-- Ganti dengan ikon splash screen (misalnya logo) -->
+        <!-- <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item> -->
+        <item name="postSplashScreenTheme">@style/Theme.EBerasPadang</item>
+    </style>
+
+</resources>
